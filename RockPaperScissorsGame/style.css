@@ -1,0 +1,71 @@
+html {
+  background: linear-gradient(0.25turn, #3fa680, #148bb6, #fc4f49);
+}
+
+body,
+#reset {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 400px;
+}
+
+.images {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.527);
+}
+
+.images:hover {
+  transform: translateY(15px);
+}
+
+#rock {
+  border-top: 5px solid #3fa680;
+  border-bottom: 5px solid #3fa680;
+  background-image: url(images/rock.png);
+}
+
+#paper {
+  border-top: 5px solid #0c6686;
+  border-bottom: 5px solid #0c6686;
+  background-image: url(images/paper.png);
+}
+
+#scissors {
+  border-top: 5px solid #fc4f49;
+  border-bottom: 5px solid #fc4f49;
+  background-image: url(images/scissors.png);
+}
+
+#scores {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 500px;
+}
+
+#personal,
+#computer {
+  color: white;
+  padding: 15px;
+}
+
+#reset {
+  width: 100px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+#reset:hover {
+  background-color: rgb(109, 105, 105);
+}
